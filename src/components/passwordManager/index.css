@@ -1,0 +1,159 @@
+.pageContainer {
+  background-color: #9ba9eb;
+  height: 300vh;
+}
+.appLogoImage {
+  height: 90px;
+  padding: 20px;
+  margin-left: 20px;
+}
+.smPasswordImage {
+  height: 300px;
+  margin-left: 30px;
+}
+@media (min-width: 768px) {
+  .smPasswordImage {
+    display: none;
+  }
+}
+.topContainer {
+  background-color: #5763a5;
+  margin: 20px;
+  border-radius: 10px;
+  padding: 10px;
+}
+@media (min-width: 768px) {
+  .topContainer {
+    display: flex;
+  }
+}
+.addNewPasswordContainer {
+  background-color: #454f84;
+  margin: 40px;
+  width: 50%;
+  border-radius: 6px;
+}
+@media (max-width: 767px) {
+  .addNewPasswordContainer {
+    width: 80%;
+  }
+}
+.topCardHead {
+  color: #ffffff;
+  padding: 20px;
+  font-family: roboto;
+  font-size: 20px;
+}
+.websiteInputContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  width: 200px;
+  margin: 20px;
+  height: 30px;
+  border-radius: 4px;
+}
+.webSiteImage {
+  height: 12px;
+  margin-left: 8px;
+}
+.webSiteInput {
+  height: 30px;
+  border-width: 0px;
+  outline: none;
+  border-radius: 4px;
+}
+.horizontalLine {
+  height: 30px;
+}
+.websiteImageContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.addButtonContainer {
+  text-align: end;
+}
+.addButton {
+  height: 30px;
+  width: 80px;
+  background-color: #0b69ff;
+  color: #ffffff;
+  border-width: 0px;
+  font-family: roboto;
+  border-radius: 6px;
+  cursor: pointer;
+  margin: 30px;
+}
+@media (max-width: 767px) {
+  .lgPasswordImage {
+    display: none;
+  }
+}
+.lgPasswordImage {
+  height: 400px;
+}
+.bottomContainer {
+  background-color: #5763a5;
+  margin: 20px;
+  border-radius: 10px;
+}
+.bottomContainerHead {
+  padding: 10px;
+  padding-left: 30px;
+  color: #f8fafc;
+  font-family: roboto;
+  font-size: 20px;
+}
+.passwordAndSearchContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.yourPasswordContainer {
+  display: flex;
+  flex-direction: row;
+}
+.noOfPasswordContainer {
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.noOfPasswords {
+  border: 1px solid #ffffff;
+  width: 40px;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 20px;
+}
+.searchImage {
+  height: 20px;
+}
+.searchInputContainer {
+  display: flex;
+  margin: 20px;
+  background-color: #ffffff;
+  border-width: 4px;
+  border-radius: 4px;
+}
+.searchInput {
+  outline: none;
+  border-width: 0px;
+}
+.bottomCardHorizontalLine {
+  margin: 20px;
+}
+.checkboxContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin: 20px;
+}
+.checkboxText {
+  color: #ffffff;
+  font-family: roboto;
+}

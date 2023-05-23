@@ -1,0 +1,49 @@
+.passwordsCardContainer {
+  display: flex;
+  margin: 20px;
+  border: 2px solid #7683cb;
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+}
+.logoLetterContainer {
+  background-color: chocolate;
+  height: 50px;
+  width: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  margin: 20px;
+}
+.logoLetter {
+  font-size: 24px;
+  font-family: roboto;
+  color: #ffffff;
+}
+.websiteName {
+  font-family: roboto;
+  font-size: 14px;
+  color: #ffffff;
+}
+.userName {
+  font-family: roboto;
+  font-size: 14px;
+  color: #ffffff;
+}
+.password {
+  font-family: roboto;
+  font-size: 14px;
+  color: #ffffff;
+}
+.deleteImage {
+  height: 20px;
+  cursor: pointer;
+}
+.websiteDetailsContainer {
+  margin-right: 100px;
+}
